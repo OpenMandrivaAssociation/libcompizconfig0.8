@@ -1,0 +1,11 @@
+diff -urN libcompizconfig-compiz-0.8/src/Makefile.am libcompizconfig-compiz-0.8-patched/src/Makefile.am
+--- libcompizconfig-compiz-0.8/src/Makefile.am	2011-04-21 23:43:36.000000000 +1100
++++ libcompizconfig-compiz-0.8-patched/src/Makefile.am	2013-04-11 21:50:16.234008808 +1100
+@@ -47,6 +47,7 @@
+ 	iniparser.h
+ 
+ libcompizconfig_la_LIBADD = @LIBXML2_LIBS@ @LIBX11_LIBS@ $(PROTOBUF_LIB)
++libcompizconfig_la_LDFLAGS = -version-number 8:0:0
+ 
+ lib_LTLIBRARIES=libcompizconfig.la
+ 
