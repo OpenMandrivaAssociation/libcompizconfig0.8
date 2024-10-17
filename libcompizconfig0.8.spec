@@ -27,7 +27,7 @@ Version:	0.8.9
 Release:	%{rel}
 License:	GPL
 Group:		System/X11
-URL:		http://www.compiz.org/
+URL:		https://www.compiz.org/
 Source0:	http://cgit.compiz.org/compiz/%{shortname}/%{oname}/snapshot/%{srcname}
 # Make sure we don't conflict with main libcompizconfig
 Patch0:		libcompizconfig0.8-soversion.patch
